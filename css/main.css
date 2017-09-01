@@ -101,8 +101,8 @@ textarea {
 
 .checking {
   display: flex;
-  flex-direction: column;
   margin: auto;
+  flex-wrap: wrap;
   width: 40%;
   padding: 1em 0em;
 }

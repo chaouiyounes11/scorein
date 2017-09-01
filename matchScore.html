@@ -30,19 +30,32 @@
 
 
     <select id="compo" name="composition">
+      <option value="0">Team 1</option>
   <option value="1">4-4-2</option>
   <option value="2" >4-3-3</option>
   <option value="3">3-5-2</option>
 </select>
 
+<button type="button" name="button" onclick="composition()">Changez Team 1</button>
 
-    <button type="button" name="button" onclick="composition()">Changez composition</button>
+
+<select id="compo1" name="composition">
+  <option value="0">Team 2</option>
+<option value="4">4-4-2</option>
+<option value="5" >4-3-3</option>
+<option value="6">3-5-2</option>
+</select>
+
+
+
+    <button type="button" name="button" onclick="composition2()">Changez Team 2</button>
+
   </div>
 
   <section id="pitchFoot">
     <article id="teamOne">
       <div class="gardien" id="goalOne">
-        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <i class="fa fa-user-circle" aria-hidden="true" onclick="info(this)"></i>
       </div>
       <div class="defense">
         <i class="fa fa-user-circle" aria-hidden="true"></i>
@@ -94,7 +107,7 @@
         <i class="fa fa-user-circle" aria-hidden="true"></i>
       </div>
       <div class="gardien" id="goalTwo">
-        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <i class="fa fa-user-circle" aria-hidden="true" onclick="info(this)"></i>
       </div>
     </article>
 
